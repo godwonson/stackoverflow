@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  border-top: solid 3px rgb(255, 119, 0);
+}
+
+/* First section */
+
+.logo {
+  width: 170px;
+  margin-left: 200px;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  margin-left: 10px;
+  padding: 8px 30px;
+  border-radius: 25px;
+  font-family: Raleway sans-serif;
+  border: 2px solid rgba(211, 210, 210, 0.537);
+  background-color: rgba(211, 210, 210, 0.537);
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.buttons:focus {
+  color: rgb(5, 5, 254);
+  border: 2px solid rgb(104, 144, 230);
+  box-shadow: 10px 8px 10px 0px rgb(104, 144, 230);
+}
+
+/*
+.fa {
+  background-color: rgb(189, 187, 187);
+  margin-left: 15px;
+}
+*/
+
+/* navbar */
+.input-box {
+  margin-left: 30px;
+  padding: 6px;
+  border: 1.5px solid rgba(0, 0, 0, 0.363);
+  outline: none;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.login {
+  margin-left: 15px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  background-color: rgba(9, 154, 244, 0.247);
+  font-family: Raleway sans-serif;
+}
+
+.signup {
+  margin-left: 2px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  background-color: rgb(97, 149, 246);
+  font-family: Raleway sans-serif;
+}
+
+/* about page */
+
+.contain-wrap {
+  padding: 20px 40px;
+}
+
+.outer-box {
+  background-color: rgba(0, 0, 0, 0.801);
+  height: 500px;
+  padding-top: 50px;
+  border: 1px solid black;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 500px;
+  height: 280px;
+}
+.box.pink {
+  background-color: rgb(255, 219, 191);
+}
+.box.blue {
+  background-color: rgb(199, 239, 253);
+  margin-left: 30px;
+}
+
+.text-wrap {
+  margin-top: 60px;
+  width: 310px;
+  padding: 0px 60px;
+  font-size: 20px;
+  font-family: raleway "Gill Sans MT", "Times New Roman", sans-serif;
+}
+
+.side-button {
+  color: white;
+  font-size: 16px;
+  font-family: Raleway sans-serif;
+  background-color: rgb(241, 123, 33);
+  padding: 12px 55px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid rgb(241, 123, 33);
+  cursor: pointer;
+  margin: 0px 75px;
+}
+
+.button:hover {
+  background-color: rgb(218, 106, 21);
+}
+
+.side-link {
+  background-color: rgb(255, 219, 191);
+  border: none;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.671);
+  font-size: 15px;
+  font-family: Raleway sans-serif;
+  cursor: pointer;
+  margin: 10px 139px;
+}
+
+.side-link:hover {
+  box-shadow: 3px 4px rgb(255, 219, 191);
+  width: 110px;
+  color: rgb(241, 119, 11);
+}
+
+.containers {
+  padding: 30px;
+}
+
+.hover {
+  display: flex;
+}
+
+.text {
+  width: 350px;
+  margin: 50px 75px 0px;
+  font-size: 20px;
+  font-family: raleway "Gill Sans MT", "Times New Roman", sans-se;
+}
+
+.texts {
+  width: 400px;
+  margin: 0px 95px;
+  font-size: 20px;
+  font-family: raleway "Gill Sans MT", "Times New Roman", sans-se;
+}
+
+.get-started {
+  max-width: 300px;
+  margin: 30px 0px 0px;
+  color: rgba(0, 0, 0, 0.719);
+  text-align: center;
+  padding: 0px 60px;
+  font-family: raleway "Gill Sans MT", "Times New Roman", sans-serif;
+}
+
+.p:before {
+  content: "";
+  display: block;
+  height: 2px;
+  right: 0;
+  top: 50%;
+  background: black;
+}
+
+.p:after {
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  top: 50%;
+  background: black;
+}
+
+.flex {
+  margin-left: 40px;
+  color: white;
+  font-size: 16px;
+  font-family: Raleway sans-serif;
+  background-color: rgb(97, 149, 246);
+  padding: 12px 45px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid rgb(72, 139, 221);
+  cursor: pointer;
+}
+
+.flex:hover {
+  background-color: rgb(32, 98, 220);
+}
+
+.flexs {
+  margin-left: 8px;
+  color: white;
+  font-size: 16px;
+  font-family: Raleway sans-serif;
+  background-color: rgb(97, 149, 246);
+  padding: 12px 35px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid rgb(72, 139, 221);
+  cursor: pointer;
+}
+
+.flexs:hover {
+  background-color: rgb(32, 98, 220);
+}
+
+/* page options */
+
+.sub-plan {
+  padding: 9px 12px;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 3px;
+}
+.sub-plan.free {
+  color: white;
+  background-color: rgb(235, 114, 9);
+}
+.sub-plan.basc {
+  color: white;
+  background-color: rgb(235, 114, 9);
+}
+
+/* stacoverflow for team */
+
+.out-box {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  text-align: center;
+}
+
+.logo-width {
+  width: 250px;
+}
+
+.sub-header {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.span-color {
+  color: rgb(235, 114, 9);
+}
+
+.team-tour {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 12px 50px;
+  color: white;
+  background-color: rgb(36, 120, 222);
+  border: none;
+  border-radius: 5px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.gap {
+  margin: 10px 40px;
+}
+
+.flex-wrap p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+/* cards */
+
+.cards-wrap {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.801);
+  padding: 80px 40px;
+  height: 800px;
+}
+
+.card {
+  background-color: rgb(249, 249, 249);
+  width: 350px;
+  height: 550px;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:not(:first-child) {
+  margin-left: 25px;
+}
+.card-top {
+  padding-bottom: 30px;
+}
+.card-top.card1 {
+  border-bottom: 1px solid #f17b21;
+}
+
+.card-top h1 {
+  margin-top: 25px;
+}
+
+.card-mid {
+  padding-top: 25px;
+}
+.card-mid > p {
+  margin-top: 15px;
+}
+.card-bottom {
+  margin-top: auto;
+}
+
+.card-bottom > button {
+  color: white;
+  font-size: 15px;
+  font-family: Raleway sans-serif;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card1-btn {
+  background-color: #f17b21;
+  font-weight: bold;
+}
+
+.foot {
+  color: rgba(0, 0, 0, 0.397);
+  text-align: center;
+  margin-top: 12px;
+}
+
+.basic {
+  background-color: #d1d1d1;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.card-top.card2 {
+  border-bottom: 1px solid #d7d6d6;
+}
+
+.card2-btn2 {
+  background-color: #d1d1d1;
+}
+
+.card2-btn2.press {
+  color: black;
+  font-weight: bold;
+}
+
+.business {
+  background-color: rgba(0, 0, 0, 0.76);
+  font-weight: bold;
+  color: white;
+}
+
+.card-top.card3 {
+  border-bottom: 1px solid #d7d6d6;
+}
+
+.card3-btn3 {
+  background-color: rgba(0, 0, 0, 0.76);
+  font-weight: bold;
+}
+
+.enterprise {
+  background-color: rgb(8, 8, 110);
+  font-weight: bold;
+  color: white;
+}
+
+.card-top.card4 {
+  border-bottom: 1px solid #d7d6d6;
+}
+
+.card4-btn4 {
+  background-color: rgb(8, 8, 110);
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  left: 0;
+  top: -22px;
+  width: 100%;
+  padding: 6px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: hsl(210, 8%, 95%);
+  font-size: 12px;
+}
+
+/* page footer1*/
+
+.footer {
+  width: 320px;
+  height: 170px;
+  border: 1px solid rgba(255, 255, 255, 0.247);
+  border-radius: 9px;
+  margin: 10px;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.footer-wrap {
+  background-color: rgba(0, 0, 0, 0.801);
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.color-blue {
+  color: rgb(101, 163, 249);
+  font-size: 27px;
+}
+
+.relatives {
+  position: relative;
+  align-items: center;
+  width: 100%;
+  margin: 25px 30px;
+}
+
+.buttom-style {
+  padding: 10px 30px;
+  color: rgb(101, 163, 249);
+  border: 1px solid rgb(101, 163, 249);
+  border-radius: 9px;
+  position: absolute;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+/* little cards */
+
+.flex-cards {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.cards {
+  width: 240px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-left: 25px;
+  background-color: rgba(128, 128, 128, 0.445);
+  font-size: 17px;
+  padding-top: 80px; /* when the logo come no need for this */
+  padding-left: 30px;
+  padding-right: 35px;
+}
+
+.pad {
+  padding: 0px 30px;
+}
+
+.padd {
+  padding-left: 60px;
+}
